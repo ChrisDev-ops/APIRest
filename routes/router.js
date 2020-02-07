@@ -17,6 +17,6 @@ router.delete('/livres/:numLivres',controller.deletOne); //ok
 
 router.put('/livres/:numLivres',controller.UpdateOne);
 
-router.post('livres',controller.AddLivre)
+router.post('/livres',controller.AddLivre)
 
 module.exports = router
